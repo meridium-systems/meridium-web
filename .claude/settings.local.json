@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sed 's/.*\\\\.//')",
+      "Bash(rm -f brands/BrandSlider1.js brands/BrandSlider2.js)",
+      "Bash(rmdir brands *)",
+      "Bash(rm -f marquee/FeatureMarquee2.js marquee/FeatureMarquee3.js Inputs/QuantityInput.js Inputs/ReactNiceSelect.js others/NoItems.js others/Paginations.js others/SmoothScroll.js wrappers/BootstrapWrapper.js wrappers/HeaderWrapper.js wrappers/FooterStack.js)",
+      "Bash(npm run *)",
+      "Bash(node -e ' *)",
+      "PowerShell(Copy-Item *)",
+      "Bash(npx --no-install next lint --file src/app/product/page.js)",
+      "Bash(Get-ChildItem -Path \"E:\\\\Sanajeewa project - ERP\\\\ERP-WEB\" -Directory)",
+      "Bash(Select-Object Name)"
+    ]
+  }
+}

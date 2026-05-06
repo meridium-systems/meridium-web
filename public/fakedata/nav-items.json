@@ -1,0 +1,17 @@
+[
+	{
+		"id": 2,
+		"name": "Product",
+		"path": "/product"
+	},
+	{
+		"id": 3,
+		"name": "Modules",
+		"path": "/modules"
+	},
+	{
+		"id": 4,
+		"name": "Contact",
+		"path": "/contact"
+	}
+]

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 90">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0%" stop-color="#00b7c6"/>
+      <stop offset="100%" stop-color="#5f7cff"/>
+    </linearGradient>
+  </defs>
+  <rect width="420" height="90" rx="18" fill="#08101e"/>
+  <g transform="translate(18,16)">
+    <rect x="0" y="6" width="46" height="46" rx="12" fill="url(#g)"/>
+    <path d="M12 40V18h7l8 10 8-10h7v22h-7V29l-8 9-8-9v11z" fill="white"/>
+  </g>
+  <text x="80" y="40" font-size="28" font-family="Arial, Helvetica, sans-serif" font-weight="700" fill="white">MERIDIUM</text>
+  <text x="80" y="62" font-size="16" font-family="Arial, Helvetica, sans-serif" fill="#9fb5d1">Systems • Cloud ERP Platform</text>
+</svg>
