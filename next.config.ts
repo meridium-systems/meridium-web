@@ -1,13 +1,14 @@
+import { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-	output: 'export', // Required for GitHub Pages
-	images: {
-		unoptimized: true, // GitHub Pages doesn't support Next.js image optimization
-	},
-	eslint: {
-		ignoreDuringBuilds: true,
-	},
-	reactStrictMode: false,
+    output: 'export', 
+    images: {
+        unoptimized: true, 
+    },
+    eslint: {
+        ignoreDuringBuilds: true,
+    },
+    reactStrictMode: false,
 };
 
 export default nextConfig;
