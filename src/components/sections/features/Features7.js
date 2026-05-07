@@ -28,26 +28,11 @@ const Features7 = () => {
 								[ WHY MERIDEUM ERP ]
 							</span>
 							<h2 className="sec-title text-anim mb-0">
-								Built to simplify daily operations{" "}
-								<Image
-									className="wow fadeInRight"
-									data-wow-delay="1.1s"
-									src="/images/feature/h10-feature-title-img-1.webp"
-									alt=""
-									width={44}
-									height={44}
-								/>{" "}
-								and improve control with{" "}
-								<Image
-									className="wow fadeInRight"
-									data-wow-delay="1.7s"
-									src="/images/feature/h10-feature-title-img-2.webp"
-									alt=""
-									width={44}
-									height={44}
-								/>{" "}
-								<span>one connected platform</span>
+								One Connected Platform for Every Business Function
 							</h2>
+							<p className="wow fadeInUp" data-wow-delay="0.3s" style={{ marginTop: "20px", maxWidth: "860px", margin: "20px auto 0" }}>
+								The system includes fully integrated modules covering Inventory Management, Purchasing, Sales, Accounts Payable (AP), Accounts Receivable (AR), and General Ledger (Finance), each equipped with powerful reporting, inquiry, and dashboard features to support data-driven decision-making. Advanced data security controls ensure that users can access only the information relevant to their roles, maintaining confidentiality and compliance.
+							</p>
 						</div>
 					</div>
 				</div>
