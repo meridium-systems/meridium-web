@@ -36,6 +36,17 @@ const Features7 = () => {
 						</div>
 					</div>
 				</div>
+				<div className="row wow fadeInUp" data-wow-delay="0.4s" style={{ marginTop: "40px", marginBottom: "20px" }}>
+					<div className="col-12 text-center">
+						<Image
+							src="/img-new/module-overview.png"
+							alt="Meridium ERP Module Overview"
+							width={1200}
+							height={600}
+							style={{ width: "100%", height: "auto", borderRadius: "12px" }}
+						/>
+					</div>
+				</div>
 				<div className="row rg-30">
 					<div className="col-xl-3 col-md-6">
 						<div
