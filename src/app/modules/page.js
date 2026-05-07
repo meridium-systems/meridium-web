@@ -52,7 +52,7 @@ const moduleFeatures = [
 		eyebrow: "[ SOURCE TO PAY ]",
 		title: "Vendor Management",
 		icon: "tji-business",
-		img: "/images/product/product-2.webp",
+		img: "/img-new/vendor-management.png",
 		alt: "Vendor management and purchasing workflow",
 		points: [
 			"Purchase Order process with approval levels",
@@ -255,10 +255,11 @@ export default function Modules() {
 												<span
 													className="sub-title wow fadeInUp"
 													data-wow-delay="0.2s"
+													style={{ color: "var(--tj-color-common-heading)" }}
 												>
 													{mod.eyebrow}
 												</span>
-												<h2 className="sec-title text-anim">
+												<h2 className="sec-title text-anim" style={{ color: "var(--tj-color-theme-primary)" }}>
 													{mod.title}
 												</h2>
 											</div>
