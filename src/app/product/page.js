@@ -231,7 +231,7 @@ export default function Product() {
 										<i className="tji-square-cube" style={{ fontSize: "28px" }}></i>
 									</span>
 									<Image
-										src="/images/product/product-1.webp"
+										src="/img-new/inventory-management.jpg"
 										alt="Stock items master data screen"
 										width={720}
 										height={520}
@@ -320,7 +320,7 @@ export default function Product() {
 										<i className="tji-business" style={{ fontSize: "28px" }}></i>
 									</span>
 									<Image
-										src="/images/product/product-2.webp"
+										src="/img-new/purchasing-delivery.png"
 										alt="Creditor supplier master record"
 										width={720}
 										height={520}
@@ -410,7 +410,7 @@ export default function Product() {
 										<i className="tji-leadership" style={{ fontSize: "28px" }}></i>
 									</span>
 									<Image
-										src="/images/service/recruitment.jpg"
+										src="/img-new/sales-pos.jpg"
 										alt="Debtor customer master record"
 										width={720}
 										height={520}
@@ -496,7 +496,7 @@ export default function Product() {
 										<i className="tji-strategic" style={{ fontSize: "28px" }}></i>
 									</span>
 									<Image
-										src="/images/product/product-3.webp"
+										src="/img-new/finance-accounting.png"
 										alt="General ledger chart of accounts structure"
 										width={720}
 										height={520}
