@@ -87,8 +87,8 @@ const HeaderTop = ({ type }) => {
 										<span>
 											<i className="tji-email"></i>
 										</span>
-										<Link href="mailto:support@solvior.com">
-											support@solvior.com
+										<Link href="mailto:support@meridiumsystems.com.au">
+											support@meridiumsystems.com.au
 										</Link>
 									</div>
 									<div className="info_item">

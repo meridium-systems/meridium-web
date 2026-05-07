@@ -1,4 +1,5 @@
 "use client";
+import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import Link from "next/link";
 import { Fragment } from "react";
 import MobileNavbar from "./MobileNavbar";
@@ -57,14 +58,17 @@ const MobileMenu = ({ isMobileMenuOpen, handleMobileToggler }) => {
 						</form>
 					</div>
 					<MobileNavbar />
+					<div className="hamburger-demo-btn" style={{ padding: "20px 0" }}>
+						<ButtonPrimary text="Request a Demo" url="/contact" className="header_btn" />
+					</div>
 					<div className="hamburger-infos">
 						<h4 className="hamburger-title">Contact info</h4>
 						<div className="contact-info">
 							<div className="contact_item">
 								<span className="subtitle">Email</span>
 								<div className="text">
-									<Link className="link" href="mailto:support@solvior.com">
-										support@solvior.com
+									<Link className="link" href="mailto:support@meridiumsystems.com.au">
+										support@meridiumsystems.com.au
 									</Link>
 								</div>
 							</div>

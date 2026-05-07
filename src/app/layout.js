@@ -20,7 +20,7 @@ import "./globals.scss";
 export const metadata = {
 	title: "MERIDEUM ERP | Cloud ERP by MERIDEUM Systems",
 	description:
-		"MERIDEUM ERP centralizes finance, inventory, purchasing and sales in one connected cloud platform with dashboards, inquiries and role-based security.",
+		"Meridium ERP is a cloud-based enterprise solution designed to streamline operations, enhance productivity, and centralize data management. Accessible securely from anywhere in the world, it integrates all key business functions into one unified platform.",
 };
 
 const lato = Lato({

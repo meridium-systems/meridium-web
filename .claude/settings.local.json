@@ -10,7 +10,9 @@
       "PowerShell(Copy-Item *)",
       "Bash(npx --no-install next lint --file src/app/product/page.js)",
       "Bash(Get-ChildItem -Path \"E:\\\\Sanajeewa project - ERP\\\\ERP-WEB\" -Directory)",
-      "Bash(Select-Object Name)"
+      "Bash(Select-Object Name)",
+      "Bash(Rename-Item *)",
+      "PowerShell(Rename-Item *)"
     ]
   }
 }

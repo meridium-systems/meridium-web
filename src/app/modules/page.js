@@ -52,7 +52,7 @@ const moduleFeatures = [
 		eyebrow: "[ SOURCE TO PAY ]",
 		title: "Vendor Management",
 		icon: "tji-business",
-		img: "/images/product/product-2.webp",
+		img: "/img-new/vendor-management.png",
 		alt: "Vendor management and purchasing workflow",
 		points: [
 			"Purchase Order process with approval levels",
@@ -66,7 +66,7 @@ const moduleFeatures = [
 		eyebrow: "[ INVENTORY MANAGEMENT ]",
 		title: "Inventory Management",
 		icon: "tji-square-cube",
-		img: "/images/product/product-1.webp",
+		img: "/img-new/inventory-management.png",
 		alt: "Inventory management and stock control",
 		points: [
 			"Maintain stock items with images, units, and minimum & maximum quantity levels",
@@ -82,7 +82,7 @@ const moduleFeatures = [
 		eyebrow: "[ ORDER TO CASH ]",
 		title: "Customer Management",
 		icon: "tji-leadership",
-		img: "/images/product/product-3.webp",
+		img: "/img-new/customer-management .png",
 		alt: "Customer management and sales workflow",
 		points: [
 			"Maintain customers with credit limits and multiple delivery addresses",
@@ -96,7 +96,7 @@ const moduleFeatures = [
 		eyebrow: "[ FINANCIAL MANAGEMENT ]",
 		title: "Financial Management",
 		icon: "tji-strategic",
-		img: "/images/service/h1-service-1.webp",
+		img: "/img-new/financial-management.png",
 		alt: "Financial management and general ledger",
 		points: [
 			"Collects and reconciles financial data to produce P&L statements and balance sheets",
@@ -255,10 +255,11 @@ export default function Modules() {
 												<span
 													className="sub-title wow fadeInUp"
 													data-wow-delay="0.2s"
+													style={{ color: "var(--tj-color-common-heading)" }}
 												>
 													{mod.eyebrow}
 												</span>
-												<h2 className="sec-title text-anim">
+												<h2 className="sec-title text-anim" style={{ color: "var(--tj-color-theme-primary)" }}>
 													{mod.title}
 												</h2>
 											</div>
@@ -285,7 +286,7 @@ export default function Modules() {
 										<div
 											className="overview-img wow fadeInUp"
 											data-wow-delay="0.3s"
-											style={{ position: "relative" }}
+											style={{ position: "relative", paddingTop: "10px" }}
 										>
 											<span
 												className="feature-icon"
