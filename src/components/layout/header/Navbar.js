@@ -1,5 +1,4 @@
 "use client";
-import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import useActiveLink from "@/hooks/useActiveLink";
 import getNavItems from "@/libs/getNavItems";
 import Image from "next/image";

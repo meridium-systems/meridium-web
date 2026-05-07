@@ -1,6 +1,7 @@
 "use client";
 import ButtonHeaderContact from "@/components/shared/buttons/ButtonHeaderContact";
 import ButtonMenuToggler from "@/components/shared/buttons/ButtonMenuToggler";
+import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import ButtonSearch from "@/components/shared/buttons/ButtonSearch";
 import useIsSticky from "@/hooks/useIsSticky";
 import { Fragment, useCallback, useState } from "react";
@@ -77,6 +78,8 @@ const Header = ({ headerType, isHeaderTop, topbarType, isStickyHeader }) => {
 										) : (
 											""
 										)}
+										{/* <!-- request a demo btn --> */}
+										<ButtonPrimary text="Request a Demo" url="/contact" className="header_btn" />
 										{/* <!-- search btn --> */}
 										{headerType === 7 || headerType === 10 ? (
 											""
