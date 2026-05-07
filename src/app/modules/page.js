@@ -82,7 +82,7 @@ const moduleFeatures = [
 		eyebrow: "[ ORDER TO CASH ]",
 		title: "Customer Management",
 		icon: "tji-leadership",
-		img: "/images/product/product-3.webp",
+		img: "/img-new/customer-management .png",
 		alt: "Customer management and sales workflow",
 		points: [
 			"Maintain customers with credit limits and multiple delivery addresses",
@@ -96,7 +96,7 @@ const moduleFeatures = [
 		eyebrow: "[ FINANCIAL MANAGEMENT ]",
 		title: "Financial Management",
 		icon: "tji-strategic",
-		img: "/images/service/h1-service-1.webp",
+		img: "/img-new/financial-management.png",
 		alt: "Financial management and general ledger",
 		points: [
 			"Collects and reconciles financial data to produce P&L statements and balance sheets",
