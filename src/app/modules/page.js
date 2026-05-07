@@ -66,7 +66,7 @@ const moduleFeatures = [
 		eyebrow: "[ INVENTORY MANAGEMENT ]",
 		title: "Inventory Management",
 		icon: "tji-square-cube",
-		img: "/images/product/product-1.webp",
+		img: "/img-new/inventory-management.png",
 		alt: "Inventory management and stock control",
 		points: [
 			"Maintain stock items with images, units, and minimum & maximum quantity levels",
@@ -286,7 +286,7 @@ export default function Modules() {
 										<div
 											className="overview-img wow fadeInUp"
 											data-wow-delay="0.3s"
-											style={{ position: "relative" }}
+											style={{ position: "relative", paddingTop: "10px" }}
 										>
 											<span
 												className="feature-icon"
