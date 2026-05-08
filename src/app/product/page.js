@@ -157,8 +157,93 @@ export default function Product() {
 					<FeatureMarquee />
 				</div>
 
-				{/* ── Block 1: Stock Items ── */}
+				{/* ── Block 1: Real-time Dashboards ── */}
 				<section className="h10-about-section section-space">
+					<div className="container">
+						<div className="row align-items-xxl-center">
+							<div className="col-lg-6 order-lg-2 order-2">
+								<div className="h10-about-content-wrap">
+									<div className="sec-heading style-2">
+										<span className="sub-title wow fadeInUp" data-wow-delay="0.2s">
+											[ LIVE INSIGHTS ]
+										</span>
+										<h2 className="sec-title text-anim">Real-time Dashboards</h2>
+									</div>
+									<p className="wow fadeInUp" data-wow-delay="0.3s">
+										Meridium ERP provides powerful real-time dashboards that give decision-makers an instant view of business performance across all modules. From stock valuation and category breakdowns to creditor aging, purchase order counts, and supplier payment summaries — everything is visible at a glance without needing to run manual reports.
+									</p>
+									<div className="check-list-one wow fadeInUp" data-wow-delay="0.4s">
+										<ul>
+											<li>
+												<i className="tji-check"></i>
+												<span>Live stock value with major category breakdown and donut chart visualisation</span>
+											</li>
+											<li>
+												<i className="tji-check"></i>
+												<span>Creditor aging analysis across 0–30, 31–60, 61–90, and 90+ day periods</span>
+											</li>
+											<li>
+												<i className="tji-check"></i>
+												<span>KPI tiles for PO count, supplier payments, and sales order count</span>
+											</li>
+											<li>
+												<i className="tji-check"></i>
+												<span>12-month purchase order trend chart for forecasting and planning</span>
+											</li>
+											<li>
+												<i className="tji-check"></i>
+												<span>Creditor balance and overdue summaries with per-supplier drill-down</span>
+											</li>
+											<li>
+												<i className="tji-check"></i>
+												<span>Role-based dashboard access — each user sees only what is relevant to their role</span>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div className="col-lg-6 order-lg-1 order-1">
+								<div
+									className="overview-img wow fadeInUp"
+									data-wow-delay="0.3s"
+									style={{ position: "relative" }}
+								>
+									<span
+										className="feature-icon"
+										style={{
+											position: "absolute",
+											top: "-22px",
+											insetInlineStart: "-22px",
+											width: "64px",
+											height: "64px",
+											display: "inline-flex",
+											alignItems: "center",
+											justifyContent: "center",
+											borderRadius: "16px",
+											background: "var(--tj-color-theme-primary)",
+											color: "var(--tj-color-common-white)",
+											boxShadow: "0 12px 28px rgba(0,0,0,0.18)",
+											zIndex: 2,
+										}}
+										aria-hidden="true"
+									>
+										<i className="tji-performance" style={{ fontSize: "28px" }}></i>
+									</span>
+									<Image
+										src="/img-new/dashboard-diagrams .png"
+										alt="Meridium ERP real-time dashboard with stock, creditor and purchasing metrics"
+										width={720}
+										height={520}
+										style={{ borderRadius: "18px", width: "100%", height: "auto" }}
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				{/* ── Block 2: Stock Items ── */}
+				<section className="h10-about-section section-space pt-0">
 					<div className="container">
 						<div className="row align-items-xxl-center">
 							<div className="col-lg-6 order-lg-2 order-2">
@@ -498,91 +583,6 @@ export default function Product() {
 									<Image
 										src="/img-new/finance-accounting.png"
 										alt="General ledger chart of accounts structure"
-										width={720}
-										height={520}
-										style={{ borderRadius: "18px", width: "100%", height: "auto" }}
-									/>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-
-				{/* ── Block 5: Real-time Dashboards ── */}
-				<section className="h10-about-section section-space pt-0">
-					<div className="container">
-						<div className="row align-items-xxl-center">
-							<div className="col-lg-6 order-lg-2 order-2">
-								<div className="h10-about-content-wrap">
-									<div className="sec-heading style-2">
-										<span className="sub-title wow fadeInUp" data-wow-delay="0.2s">
-											[ LIVE INSIGHTS ]
-										</span>
-										<h2 className="sec-title text-anim">Real-time Dashboards</h2>
-									</div>
-									<p className="wow fadeInUp" data-wow-delay="0.3s">
-										Meridium ERP provides powerful real-time dashboards that give decision-makers an instant view of business performance across all modules. From stock valuation and category breakdowns to creditor aging, purchase order counts, and supplier payment summaries — everything is visible at a glance without needing to run manual reports.
-									</p>
-									<div className="check-list-one wow fadeInUp" data-wow-delay="0.4s">
-										<ul>
-											<li>
-												<i className="tji-check"></i>
-												<span>Live stock value with major category breakdown and donut chart visualisation</span>
-											</li>
-											<li>
-												<i className="tji-check"></i>
-												<span>Creditor aging analysis across 0–30, 31–60, 61–90, and 90+ day periods</span>
-											</li>
-											<li>
-												<i className="tji-check"></i>
-												<span>KPI tiles for PO count, supplier payments, and sales order count</span>
-											</li>
-											<li>
-												<i className="tji-check"></i>
-												<span>12-month purchase order trend chart for forecasting and planning</span>
-											</li>
-											<li>
-												<i className="tji-check"></i>
-												<span>Creditor balance and overdue summaries with per-supplier drill-down</span>
-											</li>
-											<li>
-												<i className="tji-check"></i>
-												<span>Role-based dashboard access — each user sees only what is relevant to their role</span>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div className="col-lg-6 order-lg-1 order-1">
-								<div
-									className="overview-img wow fadeInUp"
-									data-wow-delay="0.3s"
-									style={{ position: "relative" }}
-								>
-									<span
-										className="feature-icon"
-										style={{
-											position: "absolute",
-											top: "-22px",
-											insetInlineStart: "-22px",
-											width: "64px",
-											height: "64px",
-											display: "inline-flex",
-											alignItems: "center",
-											justifyContent: "center",
-											borderRadius: "16px",
-											background: "var(--tj-color-theme-primary)",
-											color: "var(--tj-color-common-white)",
-											boxShadow: "0 12px 28px rgba(0,0,0,0.18)",
-											zIndex: 2,
-										}}
-										aria-hidden="true"
-									>
-										<i className="tji-performance" style={{ fontSize: "28px" }}></i>
-									</span>
-									<Image
-										src="/img-new/dashboard-diagrams .png"
-										alt="Meridium ERP real-time dashboard with stock, creditor and purchasing metrics"
 										width={720}
 										height={520}
 										style={{ borderRadius: "18px", width: "100%", height: "auto" }}
