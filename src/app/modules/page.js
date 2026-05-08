@@ -108,18 +108,18 @@ const moduleFeatures = [
 ];
 
 const flows = [
-	{ title: "Purchase Order", img: "/images/service/manufacturing.jpg" },
-	{ title: "GRN Process", img: "/images/service/automotive.jpg" },
-	{ title: "GRN Costing", img: "/images/service/h1-service-1.webp" },
+	{ title: "Purchase Order", img: "/img-new/purchase-order.jpg" },
+	{ title: "GRN Process", img: "/img-new/GRN Process.jpg" },
+	{ title: "GRN Costing", img: "/img-new/GRN Costing.jpg" },
 	{
 		title: "Supplier Invoice / 3-Way Match",
-		img: "/images/service/hospitality.jpg",
+		img: "/img-new/Supplier Invoice.jpg",
 	},
-	{ title: "Supplier Payment", img: "/images/service/h1-service-4.webp" },
-	{ title: "Sales Order Process", img: "/images/service/recruitment.jpg" },
-	{ title: "Sales Invoice Process", img: "/images/service/h1-service-5.webp" },
+	{ title: "Supplier Payment", img: "/img-new/vendor-payments.png" },
+	{ title: "Sales Order Process", img: "/img-new/sales-order-process.jpg" },
+	{ title: "Sales Invoice Process", img: "/img-new/sales-invoice-process.jpg" },
 	{ title: "Customer Payment Entry", img: "/images/service/construction.jpg" },
-	{ title: "Stock Take", img: "/images/service/engineer.jpg" },
+	{ title: "Stock Take", img: "/img-new/stock-take.jpg" },
 ];
 
 export default function Modules() {
@@ -390,6 +390,7 @@ export default function Modules() {
 												width: "100%",
 												aspectRatio: "16 / 10",
 												overflow: "hidden",
+												background: "#f5f5f5",
 											}}
 										>
 											<Image
@@ -397,7 +398,7 @@ export default function Modules() {
 												alt={`${flow.title} flow`}
 												fill
 												sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-												style={{ objectFit: "cover" }}
+												style={{ objectFit: "contain" }}
 											/>
 										</div>
 										<figcaption
